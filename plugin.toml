@@ -1,0 +1,4 @@
+name = "metrics"
+version = "0.1.0"
+description = "Metrics capability plugin for mesh-llm."
+command = "metrics"
