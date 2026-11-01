@@ -1,6 +1,6 @@
 [package]
 name = "metrics"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 license = "Apache-2.0"
 description = "Metrics capability plugin for mesh-llm"
@@ -8,5 +8,5 @@ repository = "https://github.com/Mesh-LLM/metrics"
 
 [dependencies]
 anyhow = "1"
-mesh-llm-plugin = { git = "https://github.com/Mesh-LLM/mesh-llm.git", branch = "codex/openai-endpoint-plugin" }
+mesh-llm-plugin = { git = "https://github.com/Mesh-LLM/mesh-llm.git", rev = "efd30516fd2cd92ac132dfd7b8341d24d412ee9c" }
 tokio = { version = "1", features = ["full"] }
